@@ -204,7 +204,7 @@ export const botConfig = {
     defaultCategory: 1506375716047028315,
 
     // Role IDs allowed to manage/support tickets.
-    supportRoles: [1494431588031922368],[1494432258898268291],[1496739312010792981]
+    supportRoles: [1494431588031922368],
 
     // Priority options users/staff can assign.
     priorities: {
