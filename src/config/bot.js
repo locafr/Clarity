@@ -25,9 +25,9 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "Made with ❤️",
+        name: "𝐕𝗂𝗌υαᥣ 𝐀ρρα𝗋𝗂𝗍𝗂ⱺ𐓣",
         // Activity type number (0 = Playing).
-        type: 0, 
+        type: 2, 
       },
     ],
   },
@@ -88,8 +88,8 @@ export const botConfig = {
   embeds: {
     colors: {
       // Main brand colors.
-      primary: "#336699", 
-      secondary: "#2F3136", 
+      primary: "#785027", 
+      secondary: "#3f2a14", 
 
       // Standard status colors for success/error/warning/info messages.
       success: "#57F287", 
@@ -136,7 +136,7 @@ export const botConfig = {
     },
     footer: {
       // Default footer text used in bot embeds.
-      text: "Titan Bot",
+      text: "Clarity",
       // Footer icon URL (null = no icon).
       icon: null,
     },
@@ -156,15 +156,15 @@ export const botConfig = {
   economy: {
     currency: {
       // Currency display name.
-      name: "coins",
+      name: "Spec",
       // Plural display name.
-      namePlural: "coins",
+      namePlural: "Specs",
       // Currency symbol shown in balances.
-      symbol: "$",
+      symbol: "🖇",
     },
 
     // Starting balance for new users.
-    startingBalance: 0,
+    startingBalance: 10,
 
     // Maximum bank amount before upgrades (if upgrades are used).
     baseBankCapacity: 100000,
@@ -201,10 +201,10 @@ export const botConfig = {
   // =========================
   tickets: {
     // Category ID where new tickets are created (null = no forced category).
-    defaultCategory: null,
+    defaultCategory: 1506375716047028315,
 
     // Role IDs allowed to manage/support tickets.
-    supportRoles: [],
+    supportRoles: [1494431588031922368],[1494432258898268291],[1496739312010792981]
 
     // Priority options users/staff can assign.
     priorities: {
@@ -242,7 +242,7 @@ export const botConfig = {
     archiveCategory: null,
 
     // Channel ID where ticket logs are sent.
-    logChannel: null,
+    logChannel: 1506376446036148324,
   },
 
   // =========================
@@ -289,10 +289,10 @@ export const botConfig = {
   // =========================
   verification: {
     // Message shown when posting the verification panel.
-    defaultMessage: "Click the button below to verify yourself and gain access to the server!",
+    defaultMessage: "Click the button below to verify and gain sight in the server...",
 
     // Text on the verification button.
-    defaultButtonText: "Verify",
+    defaultButtonText: "LET ME IN-",
 
     // Automatic verification behavior.
     autoVerify: {
@@ -307,12 +307,12 @@ export const botConfig = {
 
       // Member count threshold used when `defaultCriteria` is `server_size`.
       // Example: 1000 means auto-verify if server has fewer than 1000 members.
-      serverSizeThreshold: 1000,
+      serverSizeThreshold: 2000,
 
       // Allowed safety limits for account-age requirements.
       // 1 = minimum day, 365 = maximum days.
       minAccountAge: 1,      
-      maxAccountAge: 365,    
+      maxAccountAge: 4000,    
 
       // If true, user receives a DM after verification.
       sendDMNotification: true,
@@ -365,7 +365,7 @@ export const botConfig = {
     defaultGoodbyeMessage:
       "{user} has left the server. We now have {memberCount} members.",
     // Channel ID for welcome messages.
-    defaultWelcomeChannel: null,
+    defaultWelcomeChannel: 1496742704762196121,
     // Channel ID for goodbye messages.
     defaultGoodbyeChannel: null,
   },
@@ -421,13 +421,13 @@ export const botConfig = {
   // GENERIC BOT MESSAGES
   // =========================
   messages: {
-    noPermission: "You do not have permission to use this command.",
-    cooldownActive: "Please wait {time} before using this command again.",
-    errorOccurred: "An error occurred while executing this command.",
+    noPermission: "Girl plz.",
+    cooldownActive: "savanna slowdown.. {time} ",
+    errorOccurred: "dat dont make sense..",
     missingPermissions:
-      "I am missing required permissions to perform this action.",
-    commandDisabled: "This command has been disabled.",
-    maintenanceMode: "The bot is currently in maintenance mode.",
+      "I cant do that..",
+    commandDisabled: "no.",
+    maintenanceMode: "Fixin myself.",
   },
 
   // =========================
